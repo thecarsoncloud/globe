@@ -1,0 +1,60 @@
+/* Hide the toolbar buttons */
+.cesium-viewer-toolbar .cesium-button {
+    display: none;
+  }
+  
+  /* Customize the search bar */
+  .cesium-viewer-toolbar .cesium-search-button {
+    background-color: red;
+    color: white;
+  }
+  .cesium-animation-svgText {
+    display: none;
+  }
+
+  .cesium-animation-blank {
+    display: none;
+  }
+  
+  .cesium-widget-credits {
+    display: none !important;
+  }
+  
+  .cesium-animation-knobInner {
+    display: none !important;
+  }
+
+  .cesium-animation-knobOuter {
+    display: none !important;
+  }
+
+  .cesium-animation-knobInner {
+    display: none !important;
+  }
+
+  .cesium-animation-shuttleRingPausePointer {
+    display: none !important;
+  }
+
+  .cesium-animation-shuttleRingBack {
+    display: none !important;
+  }
+
+  .cesium-animation-shuttleRingG {
+    display: none !important;
+  }
+
+  .cesium-animation-buttonMain {
+    display: none !important;
+  }
+
+  .cesium-viewer-timelineContainer {
+    display: none !important;
+  }
+
+  .cesium-animation-rectButton .cesium-animation-buttonPath {
+    display: none !important;
+  }
+  .cesium-animation-buttonToggled .cesium-animation-buttonGlow {
+    display: none !important;
+  }

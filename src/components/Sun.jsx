@@ -7,7 +7,7 @@ function Sun() {
 
   useEffect(() => {
     const sun = new Cesium.Sun();
-    sun.glowFactor = 1.0;
+    sun.glowFactor = 5.0;
     sun.show = true;
     viewer.scene.sun = sun;
 
