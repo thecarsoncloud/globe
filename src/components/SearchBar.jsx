@@ -18,26 +18,6 @@ class SearchBar extends React.Component {
       fontFamily: 'Roboto, sans-serif',
       textAlign: 'center',
     };
-
-    const inputContainerStyle = {
-        position: 'relative',
-        width: '550px', // Adjust the width in pixels to make the search bar longer
-        marginBottom: '20px',
-        opacity: '0.5',
-        backgroundColor: 'rgba(0, 0, 0, 0.1)', // Light black background color with higher opacity
-      };      
-      
-      const inputStyle = {
-        width: '100%',
-        height: '50px',
-        borderRadius: '25px',
-        border: 'none',
-        padding: '0 20px', // Adjust the padding to your preference
-        fontSize: '20px',
-        opacity: '0.8',
-        backgroundColor: 'lightgrey',
-        color: 'black',
-      };
       
 
     const logoStyle = {
@@ -52,9 +32,6 @@ class SearchBar extends React.Component {
       <div style={containerStyle}>
         <div className='solarsurveyHeader' style={logoStyle}>
           S&nbsp;&nbsp;o&nbsp;&nbsp;l&nbsp;&nbsp;a&nbsp;&nbsp;r&nbsp;&nbsp;S&nbsp;&nbsp;u&nbsp;&nbsp;r&nbsp;&nbsp;v&nbsp;&nbsp;e&nbsp;&nbsp;y&nbsp;&nbsp;.ai
-        </div>
-        <div style={inputContainerStyle}>
-          <input type="text" placeholder="Search" style={inputStyle} />
         </div>
       </div>
     );

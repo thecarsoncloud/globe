@@ -1,0 +1,25 @@
+.cesium-svgPath-svg {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cesium-geocoder-searchButton {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cesium-geocoder-input {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cesium-viewer-geocoderContainer {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cesium-geocoder-input-wide {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
