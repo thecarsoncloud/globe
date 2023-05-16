@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Viewer, Camera, RectangleGraphics, createCesiumComponent, Sun } from 'resium';
 import { Cartesian3, Rectangle, SkyBox as CesiumSkyBox } from 'cesium';
 import './components/cesium/custom-cesium-styles.css';
+import SearchBar from './components/SearchBar';
 
 const ResiumSkyBox = createCesiumComponent(CesiumSkyBox);
 
@@ -53,6 +54,7 @@ function App() {
 
   return (
     <div style={containerStyle}>
+      
       <Viewer full options={viewerOptions} ref={viewerRef}>
         <Sun position={sunPosition} />
         <Camera />
@@ -60,6 +62,7 @@ function App() {
         <RectangleGraphics rectangle={Rectangle.fromDegrees(-180, -90, 180, 90)} fill={false} outline={false} />
         {/* Add other components as needed */}
       </Viewer>
+      <SearchBar />
     </div>
   );
 }

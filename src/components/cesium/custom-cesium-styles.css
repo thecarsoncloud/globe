@@ -58,6 +58,11 @@
   .cesium-animation-buttonToggled .cesium-animation-buttonGlow {
     display: none !important;
   }
-
+  @font-face {
+    font-family: 'PPStellar-Light';
+    src: url('../fonts/Stellar-light.otf') format('opentype');
+  }
+  
+  
   
   
