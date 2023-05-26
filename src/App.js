@@ -38,7 +38,6 @@ function App() {
         <Sun />
       </Viewer>
       <div style={overlayStyle}>
-        <SearchBar />
       </div>
     </div>
   );
